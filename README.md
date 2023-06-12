@@ -105,13 +105,7 @@ a. This will create a page called “Tools_NewEdit”
 2. Under **Forms**, select **Form Columns**
 3.  Click **OK**
     a. This will create a page called “Tools_View"
-=======
-
-1. On the **Tools_Overview** page right-click **Edit** > **Generate on-click page**
-2. Under **Forms**, select **Form Columns**
-3.  Click **OK**
 a. This will create a page called “Tools_View"
->>>>>>> 445f3ca6f6624b369ce6e58d719273c3d20e6c91
 4 .Right-click the new **Page** > **Rename** and rename it “Edit_Tools”
 5. Click **OK**
 
