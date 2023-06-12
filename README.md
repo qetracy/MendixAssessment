@@ -100,7 +100,6 @@ a. This will create a page called “Tools_NewEdit”
 5. Click **OK**
 
 **Edit** button:
-<<<<<<< HEAD
 
 1. On the **Tools_Overview** page right-click **Edit** > **Generate on-click page**
 2. Under **Forms**, select **Form Columns**
