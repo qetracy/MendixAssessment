@@ -45,9 +45,9 @@ The **Card Action** building block automatically creates a link that brings the 
 3.	Select the **Card action** element and drag it onto the leftmost column. Leave the remaining two columns empty.
 <img width="354" alt="Header and columns with card action" src="https://github.com/qetracy/MendixAssessment/assets/73367159/f66f086e-1b21-4b4f-abf0-4a53f9e9a467">
 
-5.	Right-click the **Card Action** > **Edit caption** 
-6.	Rename the **Card Action** to ‘View Hardware Stock’
-7.	Click **OK**
+4.	Right-click the **Card Action** > **Edit caption** 
+5.	Rename the **Card Action** to ‘View Hardware Stock’
+6.	Click **OK**
 
 ### 2.4 Change the Card Action Button
 Change the card action button to a more visually appealing button. 
