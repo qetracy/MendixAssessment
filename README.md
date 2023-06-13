@@ -11,7 +11,7 @@ Note: These instructions are to be followed in [**Design mode**](https://docs.me
 The home page is used to direct the user to the data grid that holds all the stock data. Remove all existing containers and columns from this page to create a blank workspace. To do this, follow these steps:
 
 1. In the **App Explorer**, open **MyFirstModule** > **Home_Web**
-<img width="278" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/a4345f72-b3cf-4a15-8bb0-8e9edcadd52b">
+<img width="278" alt="app explorer" src="https://github.com/qetracy/MendixAssessment/assets/73367159/a4345f72-b3cf-4a15-8bb0-8e9edcadd52b">
 
 2.	Right-click all existing columns and containers and select **Delete**
 
@@ -20,7 +20,7 @@ Add [building blocks](https://docs.mendix.com/refguide/building-block/) and [wid
 
 1. In the **App Explorer**, open **MyFirstModule** > **Home_Web**
 2. In the right column, select **Toolbox** > **Building blocks** > **Headers** > **Heroheader**
-<img width="255" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/8d59739f-90ca-438a-abf1-07f0a5ac82a2">
+<img width="255" alt="Building block heroheader" src="https://github.com/qetracy/MendixAssessment/assets/73367159/8d59739f-90ca-438a-abf1-07f0a5ac82a2">
 
 3. Drag this widget onto the blank home page 
 4. Right-click the ‘Header Title’ text > **Edit caption**
@@ -34,7 +34,7 @@ Add a layout grid below the header to separate the home page into 3 columns.
 2.	In the right column, select **Toolbox** > **Widgets**
 3.	Under **Structure**, select **Layout grid** > **4,4,4**
 -This adds a layout grid with 3 columns to the home
-<img width="383" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/8d69d4d3-8fb4-4ee3-903b-1f0c620cc73a">
+<img width="383" alt="Header and three columns" src="https://github.com/qetracy/MendixAssessment/assets/73367159/8d69d4d3-8fb4-4ee3-903b-1f0c620cc73a">
 
 ### 2.3 Add a Card Action 
 The **Card Action** building block automatically creates a link that brings the user to the data grid with the store’s hardware stock. Change the link to a button to help the user find it more easily. To do this, follow these steps:
@@ -42,7 +42,7 @@ The **Card Action** building block automatically creates a link that brings the 
 1.	Select **Toolbox** > **Building blocks**
 2.	Navigate down to **Cards** 
 3.	Select the **Card action** element and drag it onto the leftmost column. Leave the remaining two columns empty.
-<img width="354" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/f66f086e-1b21-4b4f-abf0-4a53f9e9a467">
+<img width="354" alt="Header and columns with card action" src="https://github.com/qetracy/MendixAssessment/assets/73367159/f66f086e-1b21-4b4f-abf0-4a53f9e9a467">
 
 5.	Right-click the **Card Action** > **Edit caption** 
 6.	Rename the **Card Action** to ‘View Hardware Stock’
@@ -52,7 +52,7 @@ The **Card Action** building block automatically creates a link that brings the 
 Change the card action button to a more visually appealing button. 
 
 1.	Right-click the blue chevron link and select **Properties**
-<img width="268" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/4a717152-b5a9-4df7-a93b-d3a6767e3826">
+<img width="268" alt="View hardware stock button" src="https://github.com/qetracy/MendixAssessment/assets/73367159/4a717152-b5a9-4df7-a93b-d3a6767e3826">
 
 2.	Under **General**, select **Button** > **Button style** > **Info**
 3.	Click **OK**
@@ -69,11 +69,11 @@ The hardware store’s stock information is displayed in an [entity](https://doc
 
 1. In the **App Explorer**, open **MyFirstModule** > **Domain model**
 2. In the top left corner, click **Entity**
-<img width="249" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/9c4c5511-2fec-4168-8a11-19765ef90da4">
+<img width="249" alt="blue entity box" src="https://github.com/qetracy/MendixAssessment/assets/73367159/9c4c5511-2fec-4168-8a11-19765ef90da4">
 
 3. Double-click the blue entity box and under **General**, rename the entity 'Tools'
 4. Click the **Attributes** tab to add two attributes
-<img width="468" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/6148fc21-bf13-4ce1-9376-a6ec7dbb7749">
+<img width="468" alt="Attributes properties" src="https://github.com/qetracy/MendixAssessment/assets/73367159/6148fc21-bf13-4ce1-9376-a6ec7dbb7749">
 
 5. Click **New**
 - Under Common, rename the attribute ‘Name’
@@ -89,7 +89,7 @@ A [data grid](https://docs.mendix.com/refguide/data-grid/) is where the tool inf
 
 1.  In the **App Explorer**, right-click **MyFirstModule** > **Add**
 2.  In the left column, select **Grids** > **Grid**
-<img width="425" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/98413b7e-016c-4ebc-b221-f38383917630">
+<img width="425" alt="data grid selection page" src="https://github.com/qetracy/MendixAssessment/assets/73367159/98413b7e-016c-4ebc-b221-f38383917630">
 
 3.  Click **OK**
 4. Right-click the new **Page** > **Rename** and rename it 'Tools_Overview'
@@ -101,7 +101,7 @@ Configure the data grid to input information stored in the **Tools** entity.
 1. Right-click the **Data grid** and click **Select entity**
 2. Under **MyFirstModule**, select **Tools** 
 - This creates a data source popup. Make sure **Database** is selected before proceeding.
-<img width="388" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/4fb2e9d1-4b5e-44c5-b37a-5e9b90a685b2">
+<img width="388" alt="Data source options for entity" src="https://github.com/qetracy/MendixAssessment/assets/73367159/4fb2e9d1-4b5e-44c5-b37a-5e9b90a685b2">
 
 3. Click **OK**
 
@@ -122,7 +122,7 @@ Update the **Tools_Overview** page to improve the page layout, headers, and UX. 
 3.	Click **Appearance**
 4.	Under **Design properties**, click the **Spacing top** dropdown and select **Outer medium**
 - Repeat this step on the **Spacing left** dropdown
-<img width="325" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/d986e058-2924-447d-95cf-51682304b22e">
+<img width="325" alt="Edit data grid appearance" src="https://github.com/qetracy/MendixAssessment/assets/73367159/d986e058-2924-447d-95cf-51682304b22e"> 
 
 5.	Click **OK**
 
@@ -143,10 +143,10 @@ Once both pages have been created, link them together so data can be transferred
 The left side of the page has a vertical navigation menu with a home page icon. Add a tool icon to this menu to link to the Tools_Overview page.  
 
 1. Open App **‘TW-2309’** and select **Navigation**
-<img width="178" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/207fa70f-e62c-4a9b-91cb-d090fc0eaed2">
+<img width="178" alt="App explorer Navigation dropdown" src="https://github.com/qetracy/MendixAssessment/assets/73367159/207fa70f-e62c-4a9b-91cb-d090fc0eaed2">
 
 2. Under **Menu**, click **New Item** and rename the item ‘Tools’
-<img width="451" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/acc2331d-15dc-4039-8b0b-60e4ca2022f3">
+<img width="451" alt="Create a new menu item" src="https://github.com/qetracy/MendixAssessment/assets/73367159/acc2331d-15dc-4039-8b0b-60e4ca2022f3">
 
 3. Under **On click**, select **Show a page** > **MyFirstModule** > **Tools_Overview**
 4. Click **Select** > **OK**
@@ -166,12 +166,12 @@ Create a custom message that appears when you add a tool and save it to the data
 
 1.	In the **App Explorer**, open **MyFirstModule** > **Manage_Tools**
 2.	Right-click **Save** > **Generate validation microflow**
-<img width="276" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/f15bd5c6-244b-43ed-80ba-046f9f9048e1">
+<img width="276" alt="Dropdown to generate validation microflow" src="https://github.com/qetracy/MendixAssessment/assets/73367159/f15bd5c6-244b-43ed-80ba-046f9f9048e1">
 
 3.	Rename the microflow ‘Save_Message’ and click **Generate microflow** > **Open the microflow**
 - Navigate down on the page to view the microflow
 4.	In the **Toolbox**, under **Client Activities**, select **Show Message** and drag it onto the microflow between the **Close Page** and **End event** notations
-<img width="468" alt="image" src="https://github.com/qetracy/MendixAssessment/assets/73367159/79f19890-ec36-45de-b619-644463f9faf4">
+<img width="468" alt="Show message microflow" src="https://github.com/qetracy/MendixAssessment/assets/73367159/79f19890-ec36-45de-b619-644463f9faf4">
  
 5.	Right-click the **Show Message** microflow and in **Template**, type the message ‘Tool saved successfully’
 6.	Click **OK**
