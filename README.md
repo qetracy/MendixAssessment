@@ -24,12 +24,13 @@ Add [building blocks](https://docs.mendix.com/refguide/building-block/) and [wid
 
 3. Drag this widget onto the blank home page 
 4. Right-click the ‘Header Title’ text > **Edit caption**
-5. Rename the title using the name of your hardware store.
+5. Rename the title using the name of your hardware store
 6. Right-click the ‘Supporting text’ text > **Edit caption**
 7. Insert a short blurb about the tool stock that is listed on the site
 
 ### 2.2 Add a Widget
 Add a layout grid below the header to separate the home page into 3 columns. 
+
 1.	In the **App Explorer**, open **MyFirstModule** > **Home_Web**
 2.	In the right column, select **Toolbox** > **Widgets**
 3.	Under **Structure**, select **Layout grid** > **4,4,4**
@@ -37,7 +38,7 @@ Add a layout grid below the header to separate the home page into 3 columns.
 <img width="383" alt="Header and three columns" src="https://github.com/qetracy/MendixAssessment/assets/73367159/8d69d4d3-8fb4-4ee3-903b-1f0c620cc73a">
 
 ### 2.3 Add a Card Action 
-The **Card Action** building block automatically creates a link that brings the user to the data grid with the store’s hardware stock. Change the link to a button to help the user find it more easily. To do this, follow these steps:
+The **Card Action** building block automatically creates a link that brings the user to the data grid with the store’s hardware stock. Change the link to a button to improve usability. To do this, follow these steps:
 
 1.	Select **Toolbox** > **Building blocks**
 2.	Navigate down to **Cards** 
@@ -58,14 +59,14 @@ Change the card action button to a more visually appealing button.
 3.	Click **OK**
 
 ### 2.5 Change the Container Background
-Adjust the background of the container to match the page background. 
+Adjust the container background to match the page background. 
 
 1.	Right-click the card action container and select **Properties**
 2.	Select **Appearance** and under **Background color**, select **Background Primary**
 3.	Click **OK**
 
 ## 3  Add an Entity
-The hardware store’s stock information is displayed in an [entity](https://docs.mendix.com/refguide/entities/). An entity is typically a singular, identifiable object in the real-world. To add an entity, follow these steps:
+The hardware store’s stock information is displayed in an [entity](https://docs.mendix.com/refguide/entities/). An entity is usually a singular, identifiable object in the real-world. To add an entity, follow these steps:
 
 1. In the **App Explorer**, open **MyFirstModule** > **Domain model**
 2. In the top left corner, click **Entity**
@@ -113,7 +114,7 @@ Update the **Tools_Overview** page to improve the page layout, headers, and UX. 
 1.	Right-click the ‘Page header title’ text box
 2.	Select **Edit Caption** and rename the header to ‘Hardware Stock’
 3.	Click **OK**
-4.	Right-click the ‘Supporting text’ text box and input the following blurb: ‘All tools and associated codes are listed below. Search through the grid, add new tools, and edit tools here.’
+4.	Right-click the ‘Supporting text’ text box and input the following blurb: ‘All tools and associated codes are listed below. Add new tools, edit previous tools, and search through your stock here.'
 5.	Click **OK**
 
 ### 5.2 Fix UX and Grid Formatting 
@@ -162,7 +163,7 @@ Configure the data grid buttons to create a popup page where you can enter tool 
 5.	Click **OK**
 
 ## 8  Create a Custom Save Message
-Create a custom message that appears when you add a tool and save it to the data grid. This is done by creating a microflow that validates the data being inputted into the data grid. To create a custom message, follow these steps:
+Create a custom message that appears when you add a tool and save it to the data grid. This is done by creating a microflow that validates the data that is input into the data grid. To create a custom message, follow these steps:
 
 1.	In the **App Explorer**, open **MyFirstModule** > **Manage_Tools**
 2.	Right-click **Save** > **Generate validation microflow**
