@@ -29,7 +29,7 @@ Add a layout grid below the header to separate the home page into 3 columns.
 1.	In the **App Explorer**, open **MyFirstModule** > **Home_Web**
 2.	In the right column, select **Toolbox** > **Widgets**
 3.	Under **Structure**, select **Layout grid** > **4,4,4**
-a.	This adds a layout grid with 3 columns to the home 
+- This adds a layout grid with 3 columns to the home 
 
 ### 2.3 Add a Card Action 
 The **Card Action** building block automatically creates a link that brings the user to the data grid with the store’s hardware stock. Change the link to a button to help the user find it more easily. To do this, follow these steps:
@@ -63,12 +63,12 @@ The hardware store’s stock information is displayed in an [entity](https://doc
 3. Double-click the blue entity box and under **General**, rename the entity 'Tools'
 4. Click the **Attributes** tab to add two attributes
 5. Click **New**
-a. Under Common, rename the attribute ‘Name’
-b. Under **Type**, select **String** 
-c. Click **OK**
+- Under Common, rename the attribute ‘Name’
+- Under **Type**, select **String** 
+- Click **OK**
 6. Click  **New**
-a. Under **Common**, rename the attribute 'Code'
-b. Under **Type**, select **Integer**
+- Under **Common**, rename the attribute 'Code'
+- Under **Type**, select **Integer**
 7. Click **OK** > **OK**
 
 ## 4  Create a Data Grid
@@ -85,7 +85,7 @@ Configure the data grid to input information stored in the **Tools** entity.
 
 1. Right-click the **Data grid** and click **Select entity**
 2. Under **MyFirstModule**, select **Tools** 
-a. This creates a data source popup. Make sure **Database** is selected before proceeding.
+- This creates a data source popup. Make sure **Database** is selected before proceeding.
 3. Click **OK**
 
 ## 5  Configure the Tools Page
@@ -104,7 +104,7 @@ Update the **Tools_Overview** page to improve the page layout, headers, and UX. 
 2.	Under **General**, click the **Selection mode** dropdown and select **Multi-selection**
 3.	Click **Appearance**
 4.	Under **Design properties**, click the **Spacing top** dropdown and select **Outer medium**
-a.	 Repeat this step on the **Spacing left** dropdown
+- Repeat this step on the **Spacing left** dropdown
 5.	Click **OK**
 
 ### 5.3 Edit buttons 
@@ -134,7 +134,7 @@ Configure the data grid buttons to create a popup page where you can enter tool 
 1.	On **Tools_Overview**, right-click **New** > **Generate Page**
 2.	Under **Forms**, select **Form Columns**
 3.	Click **OK**
-a.	This creates a page called ‘Tools_NewEdit’
+- This creates a page called ‘Tools_NewEdit’
 4.	Right-click the new **Page** > **Rename** and rename it ‘Manage_Tools’
 5.	Click **OK**
 
@@ -144,7 +144,7 @@ Create a custom message that appears when you add a tool and save it to the data
 1.	In the **App Explorer**, open **MyFirstModule** > **Manage_Tools**
 2.	Right-click **Save** > **Generate validation microflow**
 3.	Rename the microflow ‘Save_Message’ and click **Generate microflow** > **Open the microflow**
-a.	Navigate down on the page to view the microflow
+- Navigate down on the page to view the microflow
 4.	In the **Toolbox**, under **Client Activities**, select **Show Message** and drag it onto the microflow between the **Close Page** and **End event** notations 
 5.	Right-click the **Show Message** microflow and in **Template**, type the message ‘Tool saved successfully’
 6.	Click **OK**
